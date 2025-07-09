@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\models\\detalletransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\models\\detalletransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\models\\ejemplare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\models\\ejemplare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|c:\\users\\w11\\onedrive - universidad tecnologica del peru\\documents\\evaluacion tecnica atlantic\\v2\\backend\\servicioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0513521D-FFE4-4C99-8A33-001DF8E2F003}|ServicioApi\\ServicioApi.csproj|solutionrelative:servicioapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 484,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "ServicioApi\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T18:24:57.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "ServicioApi\\Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAD4v8MAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:11:54.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "ServicioApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowEQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:52:53.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Transaccion.cs",
+              "RelativeToolTip": "ServicioApi\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:18:58.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetalleTransaccion.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\DetalleTransaccion.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Models\\DetalleTransaccion.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\DetalleTransaccion.cs",
+              "RelativeToolTip": "ServicioApi\\Models\\DetalleTransaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:38:46.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "ServicioApi\\Models\\Usuario.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T18:41:09.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ejemplare.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Ejemplare.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Models\\Ejemplare.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Models\\Ejemplare.cs",
+              "RelativeToolTip": "ServicioApi\\Models\\Ejemplare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T16:05:41.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Program.cs",
+              "RelativeDocumentMoniker": "ServicioApi\\Program.cs",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\Program.cs",
+              "RelativeToolTip": "ServicioApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:59:33.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ServicioApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\appsettings.json",
+              "RelativeToolTip": "ServicioApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T06:42:49.745Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

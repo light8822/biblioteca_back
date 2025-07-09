@@ -1,0 +1,351 @@
+[
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "AddLibros",
+    "RelativePath": "AgregarItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejemplar",
+        "Type": "ServicioApi.Models.EjemplarAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "CrearLibro",
+    "RelativePath": "crearLibro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Libro",
+        "Type": "ServicioApi.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "CrearUsuario",
+    "RelativePath": "crearUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Usuario",
+        "Type": "ServicioApi.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "UpdateLibro",
+    "RelativePath": "editarLibro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_libro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Libro",
+        "Type": "ServicioApi.Models.Libro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "UpdateUsuario",
+    "RelativePath": "editarUsuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_Usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Usuario",
+        "Type": "ServicioApi.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "DeleteLibro",
+    "RelativePath": "eliminarLibro",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_libro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "eliminarUsuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_Usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "GetEstantes",
+    "RelativePath": "GetEstantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "GetLibro",
+    "RelativePath": "listaLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServicioApi.Models.Libro, ServicioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "listarClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServicioApi.Models.Cliente, ServicioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "GetPerfil",
+    "RelativePath": "listarPerfiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServicioApi.Models.Perfil, ServicioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "GetUsuario",
+    "RelativePath": "listarUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServicioApi.Models.Usuario, ServicioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ServicioApi.Models.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "DeleteEjemplar",
+    "RelativePath": "perdidaEjemplarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_libro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_ejemplar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id_cliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipo_transact",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "ReturnEjemplar",
+    "RelativePath": "registrarDevolucion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "RegistrarPrestamo",
+    "RelativePath": "registrarPrestamo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ServicioApi.Models.TransactEnvio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "GetLibro",
+    "RelativePath": "verLibro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_libro",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.UsuarioController",
+    "Method": "GetUsuario",
+    "RelativePath": "verUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_Usuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ServicioApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ServicioApi.WeatherForecast, ServicioApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
