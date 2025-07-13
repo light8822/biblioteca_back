@@ -142,6 +142,7 @@ namespace ServicioApi.Controllers
         [Route("registrarPrestamo")]
         public async Task<IActionResult> RegistrarPrestamo([FromBody] TransactEnvio request)
         {
+            //comentario prueba
             var LibroExistente1 = await _context.Libros.FirstOrDefaultAsync(l => l.IdLibro == request.libro1);
 
             if (LibroExistente1 == null)
