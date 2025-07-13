@@ -5163,11 +5163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\ServicioApi.csproj",
+      "projectUniqueName": "C:\\Coding\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\ServicioApi.csproj",
       "projectName": "ServicioApi",
-      "projectPath": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\ServicioApi.csproj",
+      "projectPath": "C:\\Coding\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\ServicioApi.csproj",
       "packagesPath": "C:\\Users\\W11\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W11\\OneDrive - Universidad Tecnologica del Peru\\Documents\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\obj\\",
+      "outputPath": "C:\\Coding\\Evaluacion Tecnica Atlantic\\V2\\Backend\\ServicioApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
