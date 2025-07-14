@@ -341,3 +341,4 @@ C:\Coding\Evaluacion Tecnica Atlantic\V2\Backend\ServicioApi\obj\Debug\net8.0\re
 C:\Coding\Evaluacion Tecnica Atlantic\V2\Backend\ServicioApi\obj\Debug\net8.0\ServicioApi.pdb
 C:\Coding\Evaluacion Tecnica Atlantic\V2\Backend\ServicioApi\obj\Debug\net8.0\ServicioApi.genruntimeconfig.cache
 C:\Coding\Evaluacion Tecnica Atlantic\V2\Backend\ServicioApi\obj\Debug\net8.0\ref\ServicioApi.dll
+C:\Coding\Evaluacion Tecnica Atlantic\V2\Backend\ServicioApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

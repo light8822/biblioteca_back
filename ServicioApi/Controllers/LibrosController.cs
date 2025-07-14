@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ServicioApi.Models;
 
@@ -13,6 +14,7 @@ namespace ServicioApi.Controllers
             _context = context;
         }
 
+        [Authorize]
         [HttpPost]
         [Route("crearLibro")]
         public async Task<IActionResult> CrearLibro([FromBody] Libro Libro)
@@ -23,6 +25,7 @@ namespace ServicioApi.Controllers
             return Ok("Libro Guardado Exitosamente!");
         }
 
+        [Authorize]
         [HttpGet]
         [Route("listaLibro")]
         public async Task<ActionResult<IEnumerable<Libro>>> GetLibro()
@@ -32,6 +35,7 @@ namespace ServicioApi.Controllers
             return Ok(Libros);
         }
 
+        [Authorize]
         [HttpGet]
         [Route("verLibro")]
         public async Task<IActionResult> GetLibro(int id_libro)
@@ -48,6 +52,7 @@ namespace ServicioApi.Controllers
             return Ok(Libro);
         }
 
+        [Authorize]
         [HttpPut]
         [Route("editarLibro")]
         public async Task<IActionResult> UpdateLibro( int id_libro, [FromBody] Libro Libro)
@@ -65,6 +70,7 @@ namespace ServicioApi.Controllers
             return Ok("Editado Correctamente");
         }
 
+        [Authorize]
         [HttpPost]
         [Route("AgregarItems")]
         public async Task<IActionResult> AddLibros([FromBody] EjemplarAdd ejemplar)
@@ -96,6 +102,7 @@ namespace ServicioApi.Controllers
             return Ok("Registrado con Exito");
         }
 
+        [Authorize]
         [HttpGet]
         [Route("GetEstantes")]
         public async Task<IActionResult> GetEstantes()
@@ -105,6 +112,7 @@ namespace ServicioApi.Controllers
             return Ok(Estantes);
         }
 
+        [Authorize]
         [HttpDelete]
         [Route("eliminarLibro")]
         public async Task<IActionResult> DeleteLibro(int id_libro)
@@ -138,6 +146,7 @@ namespace ServicioApi.Controllers
             return Ok("Libro Eliminado y sus Ejemplares");
         }
 
+        [Authorize]
         [HttpPost]
         [Route("registrarPrestamo")]
         public async Task<IActionResult> RegistrarPrestamo([FromBody] TransactEnvio request)
@@ -283,6 +292,7 @@ namespace ServicioApi.Controllers
             return Ok("Prestamo Registrado con Exito!");
         }
 
+        [Authorize]
         [HttpPost]
         [Route("registrarDevolucion")]
         public async Task<IActionResult> ReturnEjemplar([FromBody] EjemplarRet request)
@@ -310,6 +320,7 @@ namespace ServicioApi.Controllers
             return Ok("Ejemplar Retornado");
         }
 
+        [Authorize]
         [HttpPost]
         [Route("perdidaEjemplarCliente")]
         public async Task<IActionResult> DeleteEjemplar(int id_libro, int cantidad ,int id_ejemplar, int id_cliente, int tipo_transact)

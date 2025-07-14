@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ServicioApi.Models;
 
@@ -13,6 +14,7 @@ namespace ServicioApi.Controllers
             _context = context;
         }
 
+        [Authorize]
         [HttpGet]
         [Route("listarClientes")]
         public async Task<ActionResult<IEnumerable<Cliente>>> GetClientes()
