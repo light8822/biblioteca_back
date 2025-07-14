@@ -142,6 +142,7 @@ namespace ServicioApi.Controllers
         [Route("registrarPrestamo")]
         public async Task<IActionResult> RegistrarPrestamo([FromBody] TransactEnvio request)
         {
+            //comentario prueba
             var LibroExistente1 = await _context.Libros.FirstOrDefaultAsync(l => l.IdLibro == request.libro1);
 
             if (LibroExistente1 == null)
@@ -206,7 +207,7 @@ namespace ServicioApi.Controllers
 
                 var cantidad2 = LibroExistente2!.Cantidad;
 
-                if (cantidad1 < 1)
+                if (cantidad2 < 1)
                 {
                     return BadRequest("No hay ejemplares disponibles para préstamo.");
                 }
@@ -224,12 +225,12 @@ namespace ServicioApi.Controllers
                     return BadRequest("No hay ejemplares disponibles para préstamo.");
                 }
 
-                Ejemplar1.Estado = 2;
+                Ejemplar2.Estado = 2;
                 await _context.SaveChangesAsync();
 
                 var detalle2 = new DetalleTransaccion
                 {
-                    IdEjemplar = Ejemplar1.IdEjemplar,
+                    IdEjemplar = Ejemplar2.IdEjemplar,
                     IdTransact = transaccion.IdTransact
                 };
 
@@ -284,9 +285,9 @@ namespace ServicioApi.Controllers
 
         [HttpPost]
         [Route("registrarDevolucion")]
-        public async Task<IActionResult> ReturnEjemplar(string Codigo)
+        public async Task<IActionResult> ReturnEjemplar([FromBody] EjemplarRet request)
         {
-            var EjemplarRetorno = await _context.Ejemplares.FirstOrDefaultAsync(e => e.Codigo == Codigo);
+            var EjemplarRetorno = await _context.Ejemplares.FirstOrDefaultAsync(e => e.Codigo == request.Codigo);
 
             if(EjemplarRetorno == null)
             {
