@@ -272,9 +272,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Codigo",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "ServicioApi.Models.EjemplarRet",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

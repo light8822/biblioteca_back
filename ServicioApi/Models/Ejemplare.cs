@@ -24,3 +24,8 @@ public partial class EjemplarAdd
     public string Codigo { get; set; }
     public int IdEstante { get; set; }
 }
+
+public partial class EjemplarRet
+{
+    public string Codigo { get; set; }
+}
