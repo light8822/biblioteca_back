@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ServicioApi.Helpers;
 using ServicioApi.Models;
 
 namespace ServicioApi.Controllers
@@ -7,10 +9,12 @@ namespace ServicioApi.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly EvaluacionContext _context;
+        private readonly JwtTokenGenerator _tokenGenerator;
 
-        public UsuarioController(EvaluacionContext context)
+        public UsuarioController(EvaluacionContext context, JwtTokenGenerator tokenGenerator)
         {
             _context = context;
+            _tokenGenerator = tokenGenerator;
         }
 
         [HttpPost]
@@ -41,9 +45,16 @@ namespace ServicioApi.Controllers
                 return NotFound();
             }
 
-            return Ok(usuario);
+            var token = _tokenGenerator.GenerateToken(usuario);
+
+            return Ok(new
+            {
+                Token = token,
+                Usuario = usuario
+            });
         }
 
+        [Authorize]
         [HttpPost]
         [Route("crearUsuario")]
         public async Task<IActionResult> CrearUsuario([FromBody] Usuario Usuario)
@@ -54,6 +65,7 @@ namespace ServicioApi.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         [Route("listarUsuarios")]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuario()
@@ -75,6 +87,7 @@ namespace ServicioApi.Controllers
             return Ok(usuarios);
         }
 
+        [Authorize]
         [HttpGet]
         [Route("verUsuario")]
         public async Task<IActionResult> GetUsuario(int id_Usuario)
@@ -91,6 +104,7 @@ namespace ServicioApi.Controllers
             return Ok(Usuario);
         }
 
+        [Authorize]
         [HttpPut]
         [Route("editarUsuario")]
         public async Task<IActionResult> UpdateUsuario(int id_Usuario, [FromBody] Usuario Usuario)
@@ -107,7 +121,7 @@ namespace ServicioApi.Controllers
         }
 
 
-
+        [Authorize]
         [HttpDelete]
         [Route("eliminarUsuario")]
         public async Task<IActionResult> DeleteUsuario(int id_Usuario)
@@ -121,6 +135,7 @@ namespace ServicioApi.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         [Route("listarPerfiles")]
         public async Task<ActionResult<IEnumerable<Perfil>>> GetPerfil()
