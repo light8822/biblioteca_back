@@ -172,6 +172,16 @@
     ]
   },
   {
+    "ContainingType": "ServicioApi.Controllers.LibrosController",
+    "Method": "GetEjemplares",
+    "RelativePath": "listarEjemplares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ServicioApi.Controllers.UsuarioController",
     "Method": "GetPerfil",
     "RelativePath": "listarPerfiles",

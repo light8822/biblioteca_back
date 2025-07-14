@@ -321,6 +321,25 @@ namespace ServicioApi.Controllers
         }
 
         [Authorize]
+        [HttpGet]
+        [Route("listarEjemplares")]
+        public async Task<IActionResult> GetEjemplares()
+        {
+            var Ejemplares = await (
+                from u in _context.Ejemplares 
+                join p in _context.Libros 
+                on u.IdItem equals p.IdLibro
+                where u.Estado == 2
+                select new EjemplarList
+                {
+                    Codigo = u.Codigo,
+                    Nombre = p.Nombre
+                }).ToListAsync();
+
+            return Ok(Ejemplares);
+        }
+
+        [Authorize]
         [HttpPost]
         [Route("perdidaEjemplarCliente")]
         public async Task<IActionResult> DeleteEjemplar(int id_libro, int cantidad ,int id_ejemplar, int id_cliente, int tipo_transact)

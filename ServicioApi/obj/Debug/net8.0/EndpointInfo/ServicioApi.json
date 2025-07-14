@@ -302,6 +302,18 @@
         }
       }
     },
+    "/listarEjemplares": {
+      "get": {
+        "tags": [
+          "Libros"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/perdidaEjemplarCliente": {
       "post": {
         "tags": [
