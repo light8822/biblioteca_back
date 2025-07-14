@@ -29,3 +29,9 @@ public partial class EjemplarRet
 {
     public string Codigo { get; set; }
 }
+
+public partial class EjemplarList
+{
+    public string Codigo { get; set; }
+    public string Nombre { get; set; }
+}
