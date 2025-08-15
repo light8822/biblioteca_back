@@ -6,3 +6,4 @@
 # LINQ, 
 # Web API con Swagger, 
 # Autenticación/autorización con JWT
+# La Documentacion necesaria asi como el script para crear la BD esta en la carpeta Documents del proyecto
